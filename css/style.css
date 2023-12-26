@@ -1,0 +1,25 @@
+#homeOut {
+  background-image: url(../img/off.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#homePage {
+  background-image: url(../img/on2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#signUP{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#signIn{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body> 
+    <!-- loging page  -->
+    <div id="homeOut" class="vh-100">
+      <div id="layer" class="h-100 bg-black bg-opacity-75 d-flex justify-content-center align-items-center">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="p-4 text-center bg-light bg-opacity-25 rounded-5">
+            <h1 class="fw-bold text-light">Login System</h1>
+            <div>
+              <input type="text" name="" id="emailInput" class="form-control mt-5" placeholder="Enter Your Email"/>
+              <small class="mb-5 text-danger" id="patternMessage"></small>
+              <input type="password" name="" id="passwordInput" class="form-control mt-5 mb-3" placeholder="Enter Your Password"/>
+              <p class="text-danger" id="userMessage"></p>
+              <button type="submit" class="btn btn-success w-100 my-4" id="LoginBtn">Login</button>
+              <span>Dont have an account? <a class="text-dark" href="./pages/sign up page.html">Sign Up</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <script src="./js/login.js"></script>
+  </body>
+</html>
